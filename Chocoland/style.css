@@ -1,0 +1,550 @@
+* {
+    margin: 0%;
+    border-radius: border-box;
+    overflow-x: hidden;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin: 1.4rem;
+    background: #a1c4cf;
+    font-family: Arial;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+}
+
+.nav {
+    /**background: pink;**/
+    padding: 0.2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+
+}
+
+.nav .nav-items {
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-brand a {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+
+}
+
+.nav .nav-items .nav-link a {
+    color: black;
+    font-weight: 600;
+}
+
+.nav .nav-items .nav-link:hover {
+    background-color: mistyrose;
+}
+
+.nav .nav-brand a {
+    font-size: 2rem;
+    padding: 1rem 0;
+    display: block;
+    color: black;
+    font-weight: 700;
+}
+
+.nav .nav-brand a span {
+    color: chocolate;
+}
+
+.nav .social {
+    padding: 1.4rem 0;
+    justify-content: end;
+}
+
+.nav .social i {
+    padding: 0.2rem;
+}
+
+.nav .social i:hover {
+    color: #a1c4cf;
+}
+
+/**--------------------navbar end--------------------**/
+
+/**-------------------Main section---------------------**/
+main .site-title {
+    background: url("assets/background1.jpg");
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    padding-top: 10rem;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+}
+
+main .site-title h1 {
+    margin: .3rem;
+    font-size: 3.5rem;
+    font-family: Arial;
+    color: crimson;
+}
+
+main .site-title h3 {
+    margin: .5rem;
+    font-size: 2rem;
+    font-family: Arial;
+}
+
+main .site-title .btn {
+    margin: 1.4rem;
+    background: #a1c4cf;
+    font-family: Arial;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+}
+
+main .site-title .btn:hover {
+    color: white;
+}
+
+main .text h3 {
+    margin: .5rem;
+    font-size: 2rem;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+main .text h1 {
+    margin: .3rem;
+    font-size: 3.5rem;
+    font-family: Arial;
+    text-align: center;
+    color: crimson;
+
+}
+
+main .products {
+    background-color: mistyrose;
+}
+
+main box {
+    height: 100px;
+    border: 2px solid black;
+}
+
+/**-------------------Main section---------------------**/
+
+
+/**-------------------product section---------------------**/
+.product-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 500px;
+    width: 22%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    background-color: mintcream;
+}
+
+.box-img {
+    height: 330px;
+    background-size: cover;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box2 {
+    background-color: pink;
+}
+
+.box3 {
+    background-color: palegreen;
+}
+
+.box4 {
+    background-color: peachpuff;
+}
+
+/**-------------------product section---------------------**/
+
+/**-------------------process section---------------------**/
+main .pro-text h3 {
+    margin: .5rem;
+    font-size: 2rem;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+main .pro-text h1 {
+    margin: .3rem;
+    font-size: 3.5rem;
+    font-family: Arial;
+    text-align: center;
+    color: crimson;
+    margin-top: 20px;
+    font-family: Arial;
+
+}
+
+main .process {
+    background-color: mistyrose;
+}
+
+
+.process-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: mistyrose;
+}
+
+.pro-box {
+    height: 800px;
+    width: 50%;
+    margin-top: 15px;
+    background-color: mistyrose;
+}
+
+.probox-img {
+    height: 800px;
+    background-size: cover;
+}
+
+.pro-box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.pro-box2 .pro-box-content {
+    margin-top: 300px;
+}
+
+.probox-img {
+    background-size: cover;
+
+}
+
+main .process-section .btn {
+    margin: 1.4rem;
+    background: #a1c4cf;
+    font-family: Arial;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+}
+
+/**-------------------process section---------------------**/
+
+/**-------------------Gallary section---------------------**/
+main .pic-text h3 {
+    margin: .5rem;
+    font-size: 2rem;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+main .pic-text h1 {
+    margin: .3rem;
+    font-size: 3.5rem;
+    font-family: Arial;
+    text-align: center;
+    color: crimson;
+    margin-top: 20px;
+    font-family: Arial;
+
+}
+
+main .gallary {
+    background-color: mistyrose;
+}
+
+
+main .gal-photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: mistyrose;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.photo1 {
+    height: 100px;
+}
+
+/**-------------------Gallary section---------------------**/
+
+/**-------------------contact section---------------------**/
+main .con-text h3 {
+    margin: .5rem;
+    font-size: 2rem;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+main .con-text h1 {
+    margin: .3rem;
+    font-size: 3.5rem;
+    font-family: Arial;
+    text-align: center;
+    color: crimson;
+    margin-top: 20px;
+    font-family: Arial;
+
+}
+
+
+main .contact {
+    background-color: mistyrose;
+}
+
+
+.contact form {
+    max-width: 80rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    background: white;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input {
+    width: 49%;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+}
+
+.footer-text p {
+    font-size: 1.3rem;
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1.5rem var(--main-color);
+}
+
+.footer-iconTop a i {
+    font-size: 2.5 rem;
+    color: var(--second-bg-color);
+}
+
+
+/**-------------------contact section---------------------**/
+
+
+
+/*-----BREAKPONTS--------*/
+@media(max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .products {
+        padding-bottom: 7rem;
+    }
+
+    .process {
+        padding-bottom: 7rem;
+    }
+
+    .gallary {
+        padding-bottom: 7rem;
+    }
+
+    .contact {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media(max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar .active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .pro-box img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .certificate h2 {
+        margin-bottom: 3rem;
+    }
+
+    .project h2 {
+        margin-bottom: 3rem;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 617px) {
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+}
+
+@media(max-width: 365px) {
+    .home-img img {
+        width: 90vw;
+    }
+
+    .process-img img {
+        width: 90vw;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
